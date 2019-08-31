@@ -23,9 +23,9 @@ import (
 	sync "sync"
 	time "time"
 
-	versioned "github.com/mfrw/controller/pkg/generated/clientset/versioned"
-	cnat "github.com/mfrw/controller/pkg/generated/informers/externalversions/cnat"
-	internalinterfaces "github.com/mfrw/controller/pkg/generated/informers/externalversions/internalinterfaces"
+	versioned "github.com/mfrw/controller/client-go/pkg/generated/clientset/versioned"
+	cnat "github.com/mfrw/controller/client-go/pkg/generated/informers/externalversions/cnat"
+	internalinterfaces "github.com/mfrw/controller/client-go/pkg/generated/informers/externalversions/internalinterfaces"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"

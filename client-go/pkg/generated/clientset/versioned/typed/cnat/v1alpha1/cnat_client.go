@@ -19,8 +19,8 @@ limitations under the License.
 package v1alpha1
 
 import (
-	v1alpha1 "github.com/mfrw/controller/pkg/apis/cnat/v1alpha1"
-	"github.com/mfrw/controller/pkg/generated/clientset/versioned/scheme"
+	v1alpha1 "github.com/mfrw/controller/client-go/pkg/apis/cnat/v1alpha1"
+	"github.com/mfrw/controller/client-go/pkg/generated/clientset/versioned/scheme"
 	rest "k8s.io/client-go/rest"
 )
 

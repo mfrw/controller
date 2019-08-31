@@ -13,8 +13,8 @@ import (
 	"k8s.io/client-go/tools/clientcmd"
 	"k8s.io/klog"
 
-	clientset "github.com/mfrw/controller/pkg/generated/clientset/versioned"
-	informers "github.com/mfrw/controller/pkg/generated/informers/externalversions"
+	clientset "github.com/mfrw/controller/client-go/pkg/generated/clientset/versioned"
+	informers "github.com/mfrw/controller/client-go/pkg/generated/informers/externalversions"
 )
 
 var (

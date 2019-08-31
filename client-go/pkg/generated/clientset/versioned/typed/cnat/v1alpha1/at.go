@@ -21,8 +21,8 @@ package v1alpha1
 import (
 	"time"
 
-	v1alpha1 "github.com/mfrw/controller/pkg/apis/cnat/v1alpha1"
-	scheme "github.com/mfrw/controller/pkg/generated/clientset/versioned/scheme"
+	v1alpha1 "github.com/mfrw/controller/client-go/pkg/apis/cnat/v1alpha1"
+	scheme "github.com/mfrw/controller/client-go/pkg/generated/clientset/versioned/scheme"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	types "k8s.io/apimachinery/pkg/types"
 	watch "k8s.io/apimachinery/pkg/watch"

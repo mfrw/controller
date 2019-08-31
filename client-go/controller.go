@@ -20,11 +20,11 @@ import (
 	"k8s.io/client-go/util/workqueue"
 	"k8s.io/klog"
 
-	cnatv1alpha "github.com/mfrw/controller/pkg/apis/cnat/v1alpha1"
-	clientset "github.com/mfrw/controller/pkg/generated/clientset/versioned"
-	cnatscheme "github.com/mfrw/controller/pkg/generated/clientset/versioned/scheme"
-	informers "github.com/mfrw/controller/pkg/generated/informers/externalversions/cnat/v1alpha1"
-	listers "github.com/mfrw/controller/pkg/generated/listers/cnat/v1alpha1"
+	cnatv1alpha "github.com/mfrw/controller/client-go/pkg/apis/cnat/v1alpha1"
+	clientset "github.com/mfrw/controller/client-go/pkg/generated/clientset/versioned"
+	cnatscheme "github.com/mfrw/controller/client-go/pkg/generated/clientset/versioned/scheme"
+	informers "github.com/mfrw/controller/client-go/pkg/generated/informers/externalversions/cnat/v1alpha1"
+	listers "github.com/mfrw/controller/client-go/pkg/generated/listers/cnat/v1alpha1"
 )
 
 const controllerAgentName = "cnat-controller"

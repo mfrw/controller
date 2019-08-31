@@ -21,7 +21,7 @@ package versioned
 import (
 	"fmt"
 
-	cnatv1alpha1 "github.com/mfrw/controller/pkg/generated/clientset/versioned/typed/cnat/v1alpha1"
+	cnatv1alpha1 "github.com/mfrw/controller/client-go/pkg/generated/clientset/versioned/typed/cnat/v1alpha1"
 	discovery "k8s.io/client-go/discovery"
 	rest "k8s.io/client-go/rest"
 	flowcontrol "k8s.io/client-go/util/flowcontrol"
