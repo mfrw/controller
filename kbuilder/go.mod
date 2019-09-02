@@ -1,4 +1,4 @@
-module github.com/mfrw/controller
+module github.com/mfrw/controller/kbuilder
 
 go 1.12
 
